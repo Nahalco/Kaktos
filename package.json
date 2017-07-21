@@ -1,0 +1,19 @@
+{
+  "name": "kaktos",
+  "version": "1.0.0",
+  "description": "Nahal Corporation d2I1820 Agent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nahalco/Kaktos.git"
+  },
+  "author": "Parham Alvani <parham.alvani@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Nahalco/Kaktos/issues"
+  },
+  "homepage": "https://github.com/Nahalco/Kaktos#readme"
+}
