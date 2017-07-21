@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Nahalco/Kaktos/issues"
   },
-  "homepage": "https://github.com/Nahalco/Kaktos#readme"
+  "homepage": "https://github.com/Nahalco/Kaktos#readme",
+  "dependencies": {
+    "serialport": "^5.0.0-beta8"
+  }
 }
