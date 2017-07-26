@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Nahalco/Kaktos#readme",
   "dependencies": {
-    "@i1820/rpi.js": "github:i1820/rpi.js",
+    "@ibamboo/rpi.js": "^2.0.0",
     "serialport": "^5.0.0-beta8"
   },
   "devDependencies": {
