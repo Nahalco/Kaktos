@@ -9,11 +9,11 @@
  */
 const SerialPort = require('serialport')
 const readline = require('readline')
-const ibamboo = require('@ibamboo/rpi.js')
+const bamboo = require('@ibamboo/rpi.js')
 
 const HashtState = require('./hasht/state')
 
-const client = new ibamboo.I1820Client('mqtt://127.0.0.1', 'parham_home', 'Rooman')
+const client = new bamboo.BambooClient('mqtt://127.0.0.1', 'parham_home', 'Rooman')
 client.on('ready', () => {
   console.log(client.hash)
 })
