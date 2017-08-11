@@ -13,7 +13,7 @@ const bamboo = require('@ibamboo/rpi.js')
 
 const HashtState = require('./hasht/state')
 
-const client = new bamboo.BambooClient('mqtt://127.0.0.1', 'parham_home', 'Rooman')
+const client = new bamboo.BambooClient('mqtt://192.168.73.8', 'parham_home', 'Rooman')
 client.on('ready', () => {
   console.log(client.hash)
 })
