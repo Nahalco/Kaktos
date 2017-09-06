@@ -1,7 +1,7 @@
 {
   "name": "kaktos",
-  "version": "1.0.0",
-  "description": "Nahal Corporation d2I1820 Agent",
+  "version": "0.0.1",
+  "description": "Nahal Corporation Bamboo Agent",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,11 +17,11 @@
   },
   "homepage": "https://github.com/Nahalco/Kaktos#readme",
   "dependencies": {
-    "@ibamboo/rpi.js": "^2.2.0",
-    "serialport": "^5.0.0-beta8"
+    "@ibamboo/rpi.js": "^2.3.0",
+    "serialport": "^5.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.3.0",
+    "eslint": "^4.6.1",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
