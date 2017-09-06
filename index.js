@@ -30,6 +30,10 @@ const rl = readline.createInterface({
 })
 
 rl.on('line', (input) => {
+  if (!input) {
+    return
+  }
+
   let hs = new HashtState(input.toString())
 
   if (hs) {
